@@ -585,6 +585,16 @@
     pako "^2.0.4"
     tslib "^2.1.0"
 
+"@wharfkit/abicache@^1.2.0-rc2":
+  version "1.2.0-rc2"
+  resolved "https://registry.yarnpkg.com/@wharfkit/abicache/-/abicache-1.2.0-rc2.tgz#ff1e9dd004a760821466b8180461ef1b8c93eda4"
+  integrity sha512-v8G01cI+0hEeCQGbqcFQBsQc04SnGnjKgfsWAv+77fa5jvdINZYlFqp07fE8/l1DgxnVyCZOQMLKDGJ7r7g68g==
+  dependencies:
+    "@wharfkit/antelope" "^0.9.0-rc3"
+    "@wharfkit/signing-request" "^3.0.0"
+    pako "^2.0.4"
+    tslib "^2.1.0"
+
 "@wharfkit/antelope@^0.7.3":
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@wharfkit/antelope/-/antelope-0.7.3.tgz#408f6c587f4f5990d4b55596c10be2e976798641"
@@ -594,6 +604,18 @@
     brorand "^1.1.0"
     elliptic "^6.5.4"
     hash.js "^1.0.0"
+    tslib "^2.0.3"
+
+"@wharfkit/antelope@^0.9.0-rc3", "@wharfkit/antelope@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@wharfkit/antelope/-/antelope-0.9.1.tgz#ff6cfbb6f3c4e373407764cfce44a539dbb521ae"
+  integrity sha512-yL3qEV0emqz/L3PX+kckYJIFOU42eLroq6kkKUi/i2NW7zNw6Dw7vqhoPTztklVRqKHf7/sfab4Fve+KRmP4SQ==
+  dependencies:
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
+    elliptic "^6.5.4"
+    hash.js "^1.0.0"
+    pako "^2.1.0"
     tslib "^2.0.3"
 
 "@wharfkit/common@^1.1.0":
@@ -621,6 +643,18 @@
   dependencies:
     "@wharfkit/abicache" "^1.1.1"
     "@wharfkit/antelope" "^0.7.3"
+    "@wharfkit/common" "^1.1.0"
+    "@wharfkit/signing-request" "^3.0.0"
+    pako "^2.0.4"
+    tslib "^2.1.0"
+
+"@wharfkit/session@^1.1.0-rc3":
+  version "1.1.0-rc3"
+  resolved "https://registry.yarnpkg.com/@wharfkit/session/-/session-1.1.0-rc3.tgz#18afdaee370a099dda7302baff924a35da021a2c"
+  integrity sha512-vwCXXgkDEDlvV1R6HKFYcd3N+EplhZp0NCQwDO6NyFZsRiHBpjpxD12lp3BsYs7mnYoBIk4RPzm4YmcP7zMD1Q==
+  dependencies:
+    "@wharfkit/abicache" "^1.2.0-rc2"
+    "@wharfkit/antelope" "^0.9.1"
     "@wharfkit/common" "^1.1.0"
     "@wharfkit/signing-request" "^3.0.0"
     pako "^2.0.4"
@@ -2184,7 +2218,7 @@ package-hash@^4.0.0:
     lodash.flattendeep "^4.4.0"
     release-zalgo "^1.0.0"
 
-pako@^2.0.4:
+pako@^2.0.4, pako@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/pako/-/pako-2.1.0.tgz#266cc37f98c7d883545d11335c00fbd4062c9a86"
   integrity sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==
