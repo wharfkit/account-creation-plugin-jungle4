@@ -1,7 +1,7 @@
 {
     "name": "@wharfkit/account-creation-plugin-jungle4",
     "description": "Plugin to create a Jungle4 Testnet acccount.",
-    "version": "1.0.0-rc2",
+    "version": "1.1.0",
     "homepage": "https://github.com/wharfkit/account-creation-plugin-jungle4",
     "license": "BSD-3-Clause",
     "main": "lib/account-creation-plugin-jungle4.js",
