@@ -7,7 +7,7 @@ import {
     mockSessionKitOptions,
 } from '@wharfkit/mock-data'
 
-import {AccountCreationPluginTEMPLATE} from '$lib'
+// import {AccountCreationPluginTEMPLATE} from '$lib'
 
 suite('AccountCreationPluginTEMPLATE', function () {
     test('createAccount', async function () {
