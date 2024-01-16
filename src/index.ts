@@ -2,16 +2,16 @@ import {
     AbstractAccountCreationPlugin,
     AccountCreationPlugin,
     AccountCreationPluginConfig,
-    CreateAccountResponse,
+    APIClient,
+    Cancelable,
     Chains,
     CreateAccountContext,
-    Cancelable,
-    PromptResponse,
-    PrivateKey,
-    NameType,
-    APIClient,
+    CreateAccountResponse,
     FetchProvider,
     Logo,
+    NameType,
+    PrivateKey,
+    PromptResponse,
 } from '@wharfkit/session'
 import {AccountCreationPluginMetadata} from '@wharfkit/session'
 
